@@ -5,7 +5,8 @@ AngularJs templete bootstrap admin<br>
 npm gerenciador de pacotes </br>
 <br/>
 <h3>Requisitos para rodar projeto</h3>
-Angular CLI instalação global 
+Angular CLI instalação global <br>
+Back-and da aplicação test-brain-backend
 <h3>Passo a passo para iniciar projeto 
 <h4>1° Clone o projeto</h4> 
 <pre>
