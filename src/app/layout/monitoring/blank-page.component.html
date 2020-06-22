@@ -1,0 +1,32 @@
+<div [@routerTransition]>
+    <h2 class="text-muted">Visualizar <small>solicitações</small></h2>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card mb-12">
+                <div class="card-header">Capitura do crawler</div>
+                <div class="card-body table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Documento</th>
+                            <th>Data</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let item of docs">
+                            <td>{{item.id}}</td>
+                            <td>{{item.doc}}</td>
+                            <td>{{item.data_insert | date: 'dd/MM/yyyy'}}</td>
+                            <td><a routerLink="../crawler/{{item.id}}" href="#"><i title="Visualizar dados" class="fa fa-eye"></i></a></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
