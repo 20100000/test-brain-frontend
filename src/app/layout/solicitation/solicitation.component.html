@@ -1,18 +1,15 @@
 <div [@routerTransition]>
     <h2 class="text-muted">Solicitar <small>monitoramento</small></h2>
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
             <form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
                     <fieldset class="form-group">
                         <label>Documento </label>
                         <input class="form-control" name="documento" placeholder="CPF ou CNPJ" ngModel/>
                         <p class="help-block"></p>
                     </fieldset>
-
-
                     <button class="btn btn-primary" type="submit">Consultar</button>
-                </form>
+            </form>
         </div>
     </div>
-
 </div>
