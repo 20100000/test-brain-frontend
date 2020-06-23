@@ -18,7 +18,7 @@
                         <tr *ngFor="let item of docs">
                             <td>{{item.id}}</td>
                             <td>{{item.doc}}</td>
-                            <td>{{item.data_insert | date: 'dd/MM/yyyy'}}</td>
+                            <td>{{item.data_insert | date: 'dd/MM/yyyy H:m'}}</td>
                             <td><a routerLink="../crawler/{{item.id}}" href="#"><i title="Visualizar dados" class="fa fa-eye"></i></a></td>
                         </tr>
 
