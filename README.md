@@ -34,7 +34,7 @@ crie node_module com as dependências.<br/>
 <pre>
 git clone https://github.com/20100000/test-brain-backend
 </pre>
-Veja o manual do backend
+Veja o manual do backend<br>
 
 Caso tenha esse problema: ERROR in The Angular Compiler requires TypeScript >=3.6.4 and <3.9.0 but 3.9.6 was found instead.
 
