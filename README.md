@@ -30,7 +30,7 @@ crie node_module com as dependências.<br/>
     http://localhost:4200/login
 </pre>
 
-<h4>4° Use back-end da aplicação<h4>
+<h4>4° Use back-end da aplicação</h4>
 <pre>
 git clone https://github.com/20100000/test-brain-backend
 </pre>
