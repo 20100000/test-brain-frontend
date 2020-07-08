@@ -27,7 +27,7 @@ crie node_module com as dependências.<br/>
 
 <h4>3° URL</h4>  
 <pre>
-    http://localhost:4200/
+    http://localhost:4200/login
 </pre>
 
 <h4>4° Use back-end da aplicação<h4>
@@ -35,3 +35,9 @@ crie node_module com as dependências.<br/>
 git clone https://github.com/20100000/test-brain-backend
 </pre>
 Veja o manual do backend
+
+Caso tenha esse problema: ERROR in The Angular Compiler requires TypeScript >=3.6.4 and <3.9.0 but 3.9.6 was found instead.
+
+<pre>
+    npm i typescript@3.8
+</pre>
